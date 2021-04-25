@@ -38,10 +38,11 @@ def Oblicz_pole_figur(nazwa): \
 
 
 if __name__ == "__main__":
-    nazwa_ksztaltu = input("Podaj nazwe figury gemetrycznej dla ktorej chcezs obliczyc pole: ")
+    nazwa_ksztaltu = input("Podaj nazwe figury gemetrycznej dla ktorej chcesz obliczyc pole: ")
 
 
     Oblicz_pole_figur(nazwa_ksztaltu)
+    input("Aby zakonczyc prace programu wcisnij ENTER ")
 	
 #Projekt Stworzyli:
 # Kinga Rolczak
