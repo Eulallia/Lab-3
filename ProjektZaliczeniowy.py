@@ -26,6 +26,13 @@ def Oblicz_pole_figur(nazwa): \
         pole_kwadratu = s * s
         print(f"Pole kwadratu wynosi {pole_kwadratu}. ")
 
+    elif nazwa == "koło":
+        r = int(input("Podaj promień koła: "))
+        pi = 3.14
+
+        kolo_pole = pi * r * r
+        print(f"pole koła wynosi{kolo_pole}.")
+	
     else:
         print("NIE MA TAKIEGO KSZTALTU!")
 
@@ -35,10 +42,9 @@ if __name__ == "__main__":
 
 
     Oblicz_pole_figur(nazwa_ksztaltu)
-
-
 	
 #Projekt Stworzyli:
 # Kinga Rolczak
 # Jakub Guguł
 # Kamil Kałamarz
+# Maja Kuźniak
