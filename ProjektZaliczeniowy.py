@@ -26,7 +26,7 @@ def Oblicz_pole_figur(nazwa): \
         pole_kwadratu = s * s
         print(f"Pole kwadratu wynosi {pole_kwadratu}. ")
 
-    elif nazwa == "koło":
+    elif nazwa == "kolo":
         r = int(input("Podaj promień koła: "))
         pi = 3.14
 
@@ -38,9 +38,13 @@ def Oblicz_pole_figur(nazwa): \
 
 
 if __name__ == "__main__":
+    print("Dostepne opcje:")
+    print("-prostokat")
+    print("-kwadrat")
+    print("-trojkat")
+    print("-kolo")
     nazwa_ksztaltu = input("Podaj nazwe figury gemetrycznej dla ktorej chcesz obliczyc pole: ")
-
-
+    
     Oblicz_pole_figur(nazwa_ksztaltu)
     input("Aby zakonczyc prace programu wcisnij ENTER ")
 	
